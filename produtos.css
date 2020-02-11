@@ -29,10 +29,15 @@ nav a {
     text-decoration: none; /*removendo as decorações do texto*/
 }
 
+nav a:hover { /*ao passar o mouse acontece algo em nav a*/
+    color: #C78C19; /*setar cor ao passar o mouse*/
+    text-decoration: underline; /*sublinhar ao passar o mouse*/
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50 0; 
+    padding: 50px 0; 
 }
 
 .produtos li {
@@ -51,6 +56,18 @@ nav a {
         border: 2px solid #000000
     */
     border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active { /*ao clicar no local aplica o bloco*/
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produtos h2{
