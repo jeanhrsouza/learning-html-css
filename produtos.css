@@ -43,6 +43,14 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px; /**/
     box-sizing: border-box; /*trabalhar porcentagem com px*/
+    /*criando a borda*/
+    border-color: #000000; /*aplicando a cor na borda*/
+    border-width: 2px;/* aplicando o tamanho da borda*/
+    border-style: solid; /*aplicando o estilho de linhas solidas*/
+    /*pode aplicar as 3 linhas em uma só:
+        border: 2px solid #000000
+    */
+    border-radius: 10px;
 }
 
 .produtos h2{
