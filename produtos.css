@@ -28,3 +28,33 @@ nav a {
     font-size: 22px; /*alterando o tamanho da fonte*/
     text-decoration: none; /*removendo as decorações do texto*/
 }
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50 0; 
+}
+
+.produtos li {
+    display: inline-block; /*Ocupar somente o tamanho necessário*/
+    text-align: center; /*centralizando tudo que está dentro do li*/
+    width: 30%; /*distribuição de 30% dos lados*/
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; /**/
+    box-sizing: border-box; /*trabalhar porcentagem com px*/
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0; /*margin-top: 10px é a mesma coisa*/
+}
