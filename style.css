@@ -1,53 +1,97 @@
-body{
-
+header{
+    background: #bbbbbb; /*cor de fundo da barra do header*/
+    padding: 20px 0; /*espaçamento interno*/
 }
 
-#banner {
-    width: 100%;
+.caixa {
+    position: relative;
+    width: 940px; /*largura da caixa*/
+    margin: 0 auto; /*centralizando a div*/
 }
 
-.principal {
-    background: #cccccc;
-    padding: 30px; /*espaçamento de todos os lados em 30px*/
+nav {
+    position: absolute; /*posição absoluta para deixar a lista no local desejado*/
+    top: 110px; /*centralizando a <li> (metade do tamanho da imagem)*/
+    right: 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+nav li {
+    display: inline; /*deixando a lista em linhas*/
+    margin: 0 0 0 15px; /*espaçamento entre as palavras da lista*/
+    /*topo, direita, baixo, esquerda*/
 }
 
-.titulo-centralizado {
-    text-align: center; /*alinhar ao centro*/
+nav a {
+    text-transform: uppercase; /*deixando as palavras em caixa alta*/
+    color: #000000; /*alterando a cor da fonte*/
+    font-weight: bold; /*deixando a fonte em negrito*/
+    font-size: 22px; /*alterando o tamanho da fonte*/
+    text-decoration: none; /*removendo as decorações do texto*/
 }
 
-p {
+nav a:hover { /*ao passar o mouse acontece algo em nav a*/
+    color: #C78C19; /*setar cor ao passar o mouse*/
+    text-decoration: underline; /*sublinhar ao passar o mouse*/
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; 
+}
+
+.produtos li {
+    display: inline-block; /*Ocupar somente o tamanho necessário*/
+    text-align: center; /*centralizando tudo que está dentro do li*/
+    width: 30%; /*distribuição de 30% dos lados*/
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; /**/
+    box-sizing: border-box; /*trabalhar porcentagem com px*/
+    /*criando a borda*/
+    border-color: #000000; /*aplicando a cor na borda*/
+    border-width: 2px;/* aplicando o tamanho da borda*/
+    border-style: solid; /*aplicando o estilho de linhas solidas*/
+    /*pode aplicar as 3 linhas em uma só:
+        border: 2px solid #000000
+    */
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active { /*ao clicar no local aplica o bloco*/
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0; /*margin-top: 10px é a mesma coisa*/
+}
+
+footer {
     text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
-#missao{
-    font-size: 20px; /*tamanho da fonte*/
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
-
-em strong {
-    color: #FF0000;
-}
-
-.itens {
-    font-size: italic;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px; /*Espaçamendo de todos os lados em 20px*/
-}
-
-
-ul {
-    display: inline-block; /*colocar imagem ao lado*/
-    vertical-align: top; /*alinhar a lista por cima*/
-    width: 20%; /*tamanho de 20% da lista não ordenada*/
-    margin-right: 15%; /*criando margem a direita de 15%*/
-}
-.imagembeneficios {
-    width: 50%;
-}
-
