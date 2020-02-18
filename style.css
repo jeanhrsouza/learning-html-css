@@ -95,3 +95,32 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0; /*margin superior 40px, lados 0 e inferior 40px*/
+}
+
+/*
+    Elemento inline só ocupa o tamanho do seu conteúdo
+    Elemento block ocupa o bloco inteiro da página. um exemplo é a tag <p>
+*/
+
+form label {
+    display: block; /*Elemento block ocupa o bloco inteiro da página*/
+    font-size: 20px; /*Aumentar o tamanho da fonte*/
+    margin: 0 0 10px; /*Espaço entre os labels e inputs. Margin para baixo de 10px*/
+
+}
+
+form input {
+    display: block; /*Elemento block ocupa o bloco inteiro da página*/
+    margin: 0 0 20px; /*Margem para baixo de 20 pixels*/
+    padding: 10px 25px; /*Manipulando valores internos do input. 10px de largura para cima e bixo.
+                         20px de largura para os lados*/
+    width: 50%; /*Manipulando a largura da tag. Utilizando 50% da página*/
+}
