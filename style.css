@@ -110,17 +110,21 @@ form {
     Elemento block ocupa o bloco inteiro da página. um exemplo é a tag <p>
 */
 
-form label {
+form label, form p {
     display: block; /*Elemento block ocupa o bloco inteiro da página*/
     font-size: 20px; /*Aumentar o tamanho da fonte*/
     margin: 0 0 10px; /*Espaço entre os labels e inputs. Margin para baixo de 10px*/
 
 }
 
-form input {
+.input-padrao {
     display: block; /*Elemento block ocupa o bloco inteiro da página*/
     margin: 0 0 20px; /*Margem para baixo de 20 pixels*/
     padding: 10px 25px; /*Manipulando valores internos do input. 10px de largura para cima e bixo.
                          20px de largura para os lados*/
     width: 50%; /*Manipulando a largura da tag. Utilizando 50% da página*/
+}
+
+.checkbox {
+    margin: 20px 0;
 }
