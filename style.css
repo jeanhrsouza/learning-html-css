@@ -110,7 +110,7 @@ form {
     Elemento block ocupa o bloco inteiro da página. um exemplo é a tag <p>
 */
 
-form label, form p {
+form label, form legend{
     display: block; /*Elemento block ocupa o bloco inteiro da página*/
     font-size: 20px; /*Aumentar o tamanho da fonte*/
     margin: 0 0 10px; /*Espaço entre os labels e inputs. Margin para baixo de 10px*/
