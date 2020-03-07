@@ -147,3 +147,18 @@ form label, form legend{
     transform: scale(1.2); /*aumentar tudo em 20% a mais, o calculo disso seria 1.2; 100% + 20%*/
     /*transform: rotate(70deg) scale(1.2);*Q//*rotacionando o item*/
 }
+
+table {
+    margin: 20px 0 40px; /*margin de 20px ↑ e 40px ↓*/
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px; /*Espaçamento de 8px ↑↓ e 15px ←→*/
+}
