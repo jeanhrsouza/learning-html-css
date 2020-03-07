@@ -129,3 +129,20 @@ form label, form legend{
     margin: 20px 0;
 }
 
+.enviar {
+    width: 40%; /*aumentando o tamanho da largura do botão*/
+    padding: 15px 0; /*aumentando 15px para cima e baixo e 0 para os lados*/
+    background: orange; /*Cor do botão é laranda*/
+    color: white; /*Cor do texto é branco*/
+    font-weight: bold; /*Texto em negrito*/
+    font-size: 18px; /*tamanho da fonte é 18px*/
+    border: none; /*Não há borda*/
+    border-radius: 5px; /*arredondando os cantos do botão*/
+    transition: 1s background; /*ocorre uma transição de cor que leva 1s*/
+    cursor: pointer; /*cursor vira  um cursor que aponta*/
+}
+
+.enviar:hover { /*configurações classe enviar ao passra o mouse*/
+    background: darkorange; /*cor de fundo laranja escuro*/
+
+}
