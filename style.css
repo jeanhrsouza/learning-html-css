@@ -145,5 +145,5 @@ form label, form legend{
 .enviar:hover { /*configurações classe enviar ao passra o mouse*/
     background: darkorange; /*cor de fundo laranja escuro*/
     transform: scale(1.2); /*aumentar tudo em 20% a mais, o calculo disso seria 1.2; 100% + 20%*/
-    /*transform: rotate(70deg) scale(1.2);*//*rotacionando o item*/
+    /*transform: rotate(70deg) scale(1.2);*Q//*rotacionando o item*/
 }
