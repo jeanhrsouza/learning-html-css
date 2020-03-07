@@ -138,11 +138,12 @@ form label, form legend{
     font-size: 18px; /*tamanho da fonte é 18px*/
     border: none; /*Não há borda*/
     border-radius: 5px; /*arredondando os cantos do botão*/
-    transition: 1s background; /*ocorre uma transição de cor que leva 1s*/
+    transition: 1s all; /*ocorre uma transição de cor que leva 1s*/
     cursor: pointer; /*cursor vira  um cursor que aponta*/
 }
 
 .enviar:hover { /*configurações classe enviar ao passra o mouse*/
     background: darkorange; /*cor de fundo laranja escuro*/
-
+    transform: scale(1.2); /*aumentar tudo em 20% a mais, o calculo disso seria 1.2; 100% + 20%*/
+    /*transform: rotate(70deg) scale(1.2);*//*rotacionando o item*/
 }
